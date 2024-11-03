@@ -6,3 +6,4 @@ pyzmq >= 17.1.0  # python zmq
 flask # no need if you do not need http
 flask_compress # no need if you do not need http
 flask_json # no need if you do not need http
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
